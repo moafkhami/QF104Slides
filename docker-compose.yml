@@ -1,0 +1,19 @@
+version: '3'
+services:
+
+  jupyter:
+
+    # network_mode: "host"
+
+    container_name: 'hanlon_jupyter_r'
+    build:
+      context: ./
+      dockerfile: jupyter/Dockerfile
+      # restart: always
+
+    volumes:
+      - "./jupyter:/home/notebooks"
+    
+    ports: 
+      - "1819:8888"
+
