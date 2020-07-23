@@ -1,4 +1,4 @@
-# QF104Slides
+# QF-104 Slides
 QF104-Data management in R slides and assignments. Spring 2020
 
 # hanlon-jupyter-r
